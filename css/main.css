@@ -145,9 +145,10 @@ footer a:not(.nav-link) {
   .about-section {
     padding: 6.5rem 5rem 2rem !important; }
   .skills-section,
-  .work-experience-section,
+  .work-experiences-section,
+  .professional-skills-section,
   .education-section,
-  .contant-section {
+  .contact-section {
     padding: 1.5rem 5rem 2rem !important; }
   .page-break {
     padding-top: 5rem;
