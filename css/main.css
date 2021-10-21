@@ -47,6 +47,16 @@
 .timeline-card-primary:after {
   background-color: #4A89DC; }
 
+.timeline-card-error {
+  border-left-color: #dc4a76; }
+
+.timeline-card-error:before {
+  border-color: #dc4a76; }
+
+.timeline-card-error:after {
+  background-color: #dc4a76; }
+
+    
 .timeline-card-success {
   border-left-color: #37BC9B; }
 
@@ -91,11 +101,14 @@ html {
   margin-top: 20px;
   text-align: center;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto; 
+  border-radius: 16px;}
 
 .avatar img {
   /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%); }
+  border-radius: 12px;
+  /* filter: grayscale(100%);  */
+}
 
 footer a:not(.nav-link) {
   color: inherit;
@@ -127,7 +140,8 @@ footer a:not(.nav-link) {
     padding: 5rem !important;
     padding-bottom: 10px !important; }
   .avatar {
-    margin-top: -10px; }
+    margin-top: -10px; 
+    border-radius: 25px;}
   .about-section {
     padding: 6.5rem 5rem 2rem !important; }
   .skills-section,
